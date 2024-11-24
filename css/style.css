@@ -1,0 +1,13 @@
+.form-control:focus {
+box-shadow: none;
+border-color: black;
+}
+.container{
+    border: black 1px dotted;
+    border-left: none;
+    border-right: none;
+}
+tbody, td, tfoot, th, thead, tr{
+    border: 1px whitesmoke solid;
+    
+}
