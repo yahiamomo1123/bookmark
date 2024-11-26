@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8e9d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff4e6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 740px;
+    margin-top: 20px;
+}
+
+
+#bookmarkerh1 {
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+    font-family: "Pacifico", cursive;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+#bookmarkerh1:hover {
+    transform: translateY(-10px);
+}
+
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.h2 i {
+    color: #3ca55c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 1.1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.btn-submit {
+    background-color: #cb0606;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.btn-submit:hover {
+    background-color: #bb6b2e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 0.5em 0.5rem;
+    border-bottom: 1px solid #ddd;
+
+
+}
+
+th {
+    background-color: #fbfbfb;
+    color: #333;
+}
+
+td button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.visit-btn {
+    background-color: #8bc34a;
+    color: white;
+}
+
+.visit-btn:hover {
+    background-color: #7cb342;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
